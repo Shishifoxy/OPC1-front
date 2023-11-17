@@ -1,5 +1,6 @@
+// camembert-medailles.component.ts
 import { Component, Input, OnInit } from '@angular/core';
-import {ChartDataset, ChartOptions, ChartType } from 'chart.js';
+import { ChartDataSets, ChartOptions, ChartType } from 'chart.js';
 import { Country } from '../../core/interfaces/country.interface';
 
 @Component({
@@ -13,8 +14,8 @@ export class CamembertMedaillesComponent implements OnInit {
     public pieChartOptions: ChartOptions = {
         responsive: true,
     };
-    public pieChartLabels: String[] = [];
-    public pieChartData: ChartDataset[] = [];
+    public pieChartLabels: string[] = [];
+    public pieChartData: ChartDataSets[] = [];
     public pieChartType: ChartType = 'pie';
     public pieChartLegend = true;
 
