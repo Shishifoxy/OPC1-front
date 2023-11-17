@@ -1,6 +1,6 @@
-// camembert-medailles.component.ts
+
 import { Component, Input, OnInit } from '@angular/core';
-import { ChartDataSets, ChartOptions, ChartType } from 'chart.js';
+import {ChartDataset, ChartDataSets, ChartOptions, ChartType} from 'chart.js';
 import { Country } from '../../core/interfaces/country.interface';
 
 @Component({
